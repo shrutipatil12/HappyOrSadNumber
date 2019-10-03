@@ -7,5 +7,4 @@ public class HappyNumber {
         }
         return false;
     }
-
 }
