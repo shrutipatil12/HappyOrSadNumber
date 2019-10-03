@@ -14,13 +14,13 @@ public class HappyNumberTest {
     }
 
     @Test
-    void givenThreeNumberAsInput_WhenCheks_ThenItShouldBeHappyNumber() {
+    void givenThreeNumberAsInput_WhenCheks_ThenItShouldNotBeHappyNumber() {
         HappyNumber three = new HappyNumber();
         assertFalse(three.checkNumber(3));
     }
 
     @Test
-    void givenNineNumberAsInput_WhenCheks_ThenItShouldBeHappyNumber() {
+    void givenNineNumberAsInput_WhenCheks_ThenItShouldNotBeHappyNumber() {
         HappyNumber nine = new HappyNumber();
         assertFalse(nine.checkNumber(9));
     }
