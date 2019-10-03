@@ -19,5 +19,10 @@ public class HappyNumberTest {
         assertFalse(three.checkNumber(3));
     }
 
+    @Test
+    void givenNineNumberAsInput_WhenCheks_ThenItShouldBeHappyNumber() {
+        HappyNumber nine = new HappyNumber();
+        assertFalse(nine.checkNumber(9));
+    }
 }
 
